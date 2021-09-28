@@ -1,4 +1,5 @@
 import os
+from io import FileIO
 
 try:
     import convertapi
@@ -18,7 +19,6 @@ zelow = """
 """
 
 def convert():
-
 	options = {
 		"Files": []
 	}
@@ -35,18 +35,18 @@ def convert():
 		try:
 			FileIO(file)
 
-		except:
-			print("[-]" + file + "not exist!")
+		except FileNotFoundError as e:
+			print(e)
 			options["Files"].remove(file)
-
+ 
 	if not options["Files"]:
 		exit("no valid file!")
 
 	for file in options["Files"]:
-		os.makedirs("converted_files/", exist_ok=True)
+		os.makedirs("formats_converted/", exist_ok=True)
 
 		result = convertapi.convert(to_format=to_format, params={"File": file})
-		result.save_files("converted_files/")
+		result.save_files("formats_converted/")
 
 	print("Conversion Successfully Completed!")
 
