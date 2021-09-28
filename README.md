@@ -18,8 +18,9 @@ To launch the script just double click on the .py file
 They are stored in `python_file_directory/formats_converted/`
 
 ## Example
-![image](https://media.discordapp.net/attachments/875082553298665553/880162160959946782/unknown.png)
-![image](https://media.discordapp.net/attachments/875082553298665553/880162423720513546/unknown.png)
+![image](https://media.discordapp.net/attachments/850635541778792459/892486355286904942/unknown.png)
+
+![image](https://media.discordapp.net/attachments/850635541778792459/892487471588327474/unknown.png)
 
 # Support
 
