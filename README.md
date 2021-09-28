@@ -4,15 +4,14 @@ convert your extensions to infinity!
 # Requierements
 
 ## convertAPI
-for download with pip: `pip install convertapi`: https://pypi.org.project/convertapi
+for download with pip:
+
+[pip install convertapi](https://pypi.org.project/convertapi)
 
 ## Supported Formats
-for the supported formats lists check:
-
-https://www.convertapi.com/doc/file-formats
+[Click Here](https://www.convertapi.com/doc/file-formats)
 
 # Start-Up
-
 To launch the script just double click on the .py file
 
 ## Where are videos and audios stored?
